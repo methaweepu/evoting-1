@@ -8,7 +8,7 @@ pipeline {
           stage('Source') {
                steps {
                     git branch: 'master',
-                         url: 'https://github.com/methaweepu/evoting.git'
+                         url: 'https://github.com/methaweepu/evoting-1.git'
                }
           }
           stage('Build') {
